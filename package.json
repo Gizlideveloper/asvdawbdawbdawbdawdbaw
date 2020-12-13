@@ -1,0 +1,36 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "v12 ke",
+  "main": "dionysus.js",
+  "scripts": {
+    "start": "node dionysus.js"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "gamedig": "^2.0.23",
+    "jimp": "^0.12.1",
+    "moment": "^2.26.0",
+    "ms": "^2.1.2",
+    "quick.db": "^7.1.1",
+    "snekfetch": "^4.0.4"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
